@@ -91,7 +91,7 @@ main article{
 }
 main::before{
   content: '';
-  background: url(/image_resources/featured.jpg) no-repeat center center/cover;
+  background: url(image_resources/featured.jpg) no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -293,6 +293,13 @@ article .second-grid h1{
 .second-grid .article-3{
   background-color: white;
 }
+.second-grid .article-3 ul li a i{
+  padding-right: .3rem;
+}
+.second-grid .article-3 ul li {
+  display: block;
+  width: 100%;
+}
 .second-grid .article-2{
   background-color: #F99500;
 }
@@ -304,7 +311,7 @@ article .second-grid h1{
 }
 .second-grid .article-grid p{
   color: black;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 .second-grid .article-grid .flag{
   background-color: #A66BBE;
